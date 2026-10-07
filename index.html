@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es" style="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Somos SCA</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body
+    class="bg-background text-on-background font-body-md antialiased selection:bg-primary-container selection:text-white">
+    <!-- TopNavBar -->
+    <nav
+        class="bg-surface dark:bg-surface-container-highest docked full-width top-0 shadow-sm dark:shadow-none z-50 sticky">
+        <div class="flex justify-between items-center h-16 px-gutter max-w-max-width mx-auto">
+            <div
+                class="flex items-center gap-3 font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed cursor-pointer">
+                <img src="img/logo.png" alt="Soñando con Amor" class="h-12 w-auto object-contain"><span class="">Soñando
+                    Con
+                    Amor</span>
+            </div>
+            <!-- Desktop Nav -->
+            <div class="hidden md:flex space-x-6">
+                <a class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-body-md text-body-md"
+                    href="#quienes-somos">Quiénes Somos</a>
+                <a class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-body-md text-body-md"
+                    href="#objetivos">Objetivos</a>
+                <a class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-body-md text-body-md"
+                    href="#donaciones">Donaciones</a>
+            </div>
+            <div class="hidden md:block">
+                <a class="bg-primary-container text-white px-6 py-2 rounded-lg font-label-md hover:opacity-80 transition-opacity"
+                    href="#donaciones">
+                    Apoya ahora
+                </a>
+            </div>
+            <!-- Mobile Menu Button -->
+        </div>
+    </nav>
+    <main>
+        <!-- Hero Section -->
+        <section class="relative pt-xl pb-lg px-margin-mobile md:px-gutter max-w-max-width mx-auto overflow-hidden">
+            <div class="grid md:grid-cols-2 gap-lg items-center relative z-10">
+                <div class="space-y-6">
+
+                    <h1 class="font-headline-xl text-headline-xl text-on-background">
+                        Uniendo manos para alegrar los corazones de los mas pequeños.
+                    </h1>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg">
+                        Un voluntariado que nace desde el amor, porque hay ausencias que marcan un antes y un después,
+                        pero también hay recuerdos y un legado que nos obliga a transmitir esperanza.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a class="bg-primary-container text-white px-8 py-3 rounded-lg font-label-md text-center hover:opacity-90 transition-opacity shadow-soft inline-flex justify-center items-center gap-2"
+                            href="#donaciones">
+                            <span class="material-symbols-outlined"
+                                style="font-variation-settings: &quot;FILL&quot; 1;">favorite</span>
+                            Donar ahora
+                        </a>
+                        <a class="bg-transparent border border-primary text-primary px-8 py-3 rounded-lg font-label-md text-center hover:bg-surface-container transition-colors"
+                            href="#quienes-somos">
+                            Conoce más
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="absolute inset-0 bg-custom-peach rounded-2xl transform rotate-3 scale-105 opacity-50">
+                    </div>
+                    <img alt="Su sueño vive en cada sonrisa que construimos"
+                        class="relative z-10 rounded-2xl w-full h-auto object-contain bg-white shadow-soft p-4"
+                        src="img/image.webp">
+                </div>
+            </div>
+        </section>
+        <!-- Quiénes Somos -->
+        <section class="py-xl px-margin-mobile md:px-gutter bg-surface-container-low" id="quienes-somos">
+            <div class="max-w-max-width mx-auto">
+                <div class="w-full max-w-5xl mx-auto">
+                    <div class="text-center max-w-2xl mx-auto mb-8">
+                        <h2 class="font-headline-lg text-headline-lg text-on-background mb-4">Quiénes Somos</h2>
+                        <p class="font-body-md text-body-md text-on-surface-variant">Conoce al grupo de jovenes
+                            dispuestos a tender la mano y acompañar a los niños de todas las edades sin
+                            distinción y, juntos con ellos a sus familias.</p>
+                    </div>
+                    <!-- Contenedor de equipos con diseño Glassmorphism Moderno (1:1) -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <!-- Comunicaciones -->
+                        <div
+                            class="group bg-white border border-outline-variant/30 rounded-3xl p-3.5 shadow-soft hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col">
+                            <div
+                                class="w-full aspect-square rounded-2xl overflow-hidden relative bg-surface-container-low">
+                                <img src="img/fotos grupales/1 - Coms.webp" alt="Equipo de Comunicaciones"
+                                    class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105">
+                            </div>
+                            <div class="pt-4 pb-2 px-2 flex flex-col justify-between flex-1">
+                                <div class="flex items-center justify-between">
+                                    <h3
+                                        class="text-sm font-bold uppercase tracking-wider text-on-surface group-hover:text-primary transition-colors">
+                                        Comunicaciones</h3>
+                                </div>
+                                <p class="text-xs text-on-surface-variant/80 mt-1.5 leading-relaxed">Conectando la causa
+                                    con aliados y visibilizando cada sonrisa y jornada con empatía.</p>
+                            </div>
+                        </div>
+
+                        <!-- Finanzas -->
+                        <div
+                            class="group bg-white border border-outline-variant/30 rounded-3xl p-3.5 shadow-soft hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col">
+                            <div
+                                class="w-full aspect-square rounded-2xl overflow-hidden relative bg-surface-container-low">
+                                <img src="img/fotos grupales/2 - Fin.webp" alt="Equipo de Finanzas"
+                                    class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105">
+                            </div>
+                            <div class="pt-4 pb-2 px-2 flex flex-col justify-between flex-1">
+                                <div class="flex items-center justify-between">
+                                    <h3
+                                        class="text-sm font-bold uppercase tracking-wider text-on-surface group-hover:text-primary transition-colors">
+                                        Finanzas</h3>
+                                </div>
+                                <p class="text-xs text-on-surface-variant/80 mt-1.5 leading-relaxed">Administración
+                                    rigurosa, eficiente y transparente de cada donación e insumo.</p>
+                            </div>
+                        </div>
+
+                        <!-- Redes -->
+                        <div
+                            class="group bg-white border border-outline-variant/30 rounded-3xl p-3.5 shadow-soft hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col">
+                            <div
+                                class="w-full aspect-square rounded-2xl overflow-hidden relative bg-surface-container-low">
+                                <img src="img/fotos grupales/4 - redes.webp" alt="Equipo de Redes"
+                                    class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105">
+                            </div>
+                            <div class="pt-4 pb-2 px-2 flex flex-col justify-between flex-1">
+                                <div class="flex items-center justify-between">
+                                    <h3
+                                        class="text-sm font-bold uppercase tracking-wider text-on-surface group-hover:text-primary transition-colors">
+                                        Redes</h3>
+                                </div>
+                                <p class="text-xs text-on-surface-variant/80 mt-1.5 leading-relaxed">Creando contenido
+                                    creativo que sensibiliza y amplifica el mensaje de esperanza.</p>
+                            </div>
+                        </div>
+
+                        <!-- Protocolo -->
+                        <div
+                            class="group bg-white border border-outline-variant/30 rounded-3xl p-3.5 shadow-soft hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col">
+                            <div
+                                class="w-full aspect-square rounded-2xl overflow-hidden relative bg-surface-container-low">
+                                <img src="img/fotos grupales/3 - Prot.webp" alt="Equipo de Protocolo"
+                                    class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105">
+                            </div>
+                            <div class="pt-4 pb-2 px-2 flex flex-col justify-between flex-1">
+                                <div class="flex items-center justify-between">
+                                    <h3
+                                        class="text-sm font-bold uppercase tracking-wider text-on-surface group-hover:text-primary transition-colors">
+                                        Protocolo</h3>
+                                </div>
+                                <p class="text-xs text-on-surface-variant/80 mt-1.5 leading-relaxed">Organización,
+                                    bienvenida y acompañamiento activo en cada actividad y jornada.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                        <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col text-left">
+                            <div
+                                class="w-10 h-10 rounded-full bg-custom-lavender flex items-center justify-center text-primary mb-4">
+                                <span class="material-symbols-outlined text-xl">school</span>
+                            </div>
+                            <h3 class="text-lg font-bold text-on-surface mb-2">Estudiantes</h3>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">El corazón operativo del
+                                voluntariado está impulsado por estudiantes que aportan desde sus talentos y
+                                aspiraciones profesionales a esta causa.</p>
+                        </div>
+                        <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col text-left">
+                            <div
+                                class="w-10 h-10 rounded-full bg-custom-mint flex items-center justify-center text-secondary mb-4">
+                                <span class="material-symbols-outlined text-xl">groups</span>
+                            </div>
+                            <h3 class="text-lg font-bold text-on-surface mb-2">Comunidad</h3>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">Nos enfocamos en el bienestar
+                                integral de la comunidad, respetando las particularidades de cada entorno o institución.
+                            </p>
+                        </div>
+                        <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col text-left">
+                            <div
+                                class="w-10 h-10 rounded-full bg-custom-yellow/40 flex items-center justify-center text-tertiary mb-4">
+                                <span class="material-symbols-outlined text-xl">volunteer_activism</span>
+                            </div>
+                            <h3 class="text-lg font-bold text-on-surface mb-2">Compromiso</h3>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">Trabajamos con dedicación,
+                                esfuerzo y empatía. Asumimos el reto de convertir las dificultades en fortaleza,
+                                comprometiéndonos a transparencia en la recaudación de fondos e invertir en la ayuda y
+                                asistencia de nuestros pequeños. </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Misión y Visión -->
+        <section class="py-xl px-margin-mobile md:px-gutter">
+            <div class="max-w-max-width mx-auto">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-surface-container p-8 rounded-2xl relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 right-0 w-32 h-32 bg-custom-lavender rounded-bl-full opacity-20 transition-transform group-hover:scale-110">
+                        </div>
+                        <h3 class="font-headline-lg text-headline-lg text-primary-container mb-4 relative z-10">Misión
+                        </h3>
+                        <p class="font-body-lg text-body-lg text-on-surface-variant relative z-10">
+                            Brindar atención integral a niños, jóvenes y familias en situaciones difíciles ofreciendo
+                            recreación, apoyo psicológico, alimentación y educación. Buscamos que los más pequeños
+                            cuenten con un espacio seguro para divertirse, aprender y desarrollarse a través de
+                            dinámicas didácticas, lecturas y juegos, acompañando también a sus representantes en
+                            momentos de necesidad sin distinción alguna.
+                        </p>
+                    </div>
+                    <div class="bg-surface-container p-8 rounded-2xl relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 right-0 w-32 h-32 bg-custom-mint rounded-bl-full opacity-20 transition-transform group-hover:scale-110">
+                        </div>
+                        <h3 class="font-headline-lg text-headline-lg text-secondary-container mb-4 relative z-10">Visión
+                        </h3>
+                        <p class="font-body-lg text-body-lg text-on-surface-variant relative z-10">
+                            Consolidarnos y constituirnos formalmente como una fundación autosustentable que sirva de
+                            puente de esperanza. Aspiramos a expandir nuestro alcance en la comunidad, sumando alianzas
+                            con empresas para captar donaciones y multiplicando el número de voluntarios capacitados
+                            para que nadie tenga que reconstruir su vida en soledad.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Objetivos  -->
+        <section class="py-xl px-margin-mobile md:px-gutter bg-surface-container-low" id="objetivos">
+            <div class="max-w-max-width mx-auto">
+                <div class="text-center mb-lg">
+                    <h2 class="font-headline-lg text-headline-lg text-on-background mb-4">Objetivos</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <!-- Bento Grid Style items -->
+                    <div
+                        class="bg-white p-6 rounded-xl shadow-soft md:col-span-2 lg:col-span-2 row-span-2 flex flex-col justify-center">
+                        <span class="material-symbols-outlined text-4xl text-custom-purple mb-4">healing</span>
+                        <h4 class="font-headline-md text-headline-md text-on-background mb-2">Asistencia Médica Básica
+                        </h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant">Facilitamos jornadas de salud
+                            preventiva, entrega de insumos de primeros auxilios y medicinas esenciales para la atención
+                            primaria de niñas, niños y sus familias.</p>
+                    </div>
+                    <div class="bg-custom-mint/20 p-6 rounded-xl">
+                        <span
+                            class="material-symbols-outlined text-3xl text-on-secondary-container mb-3">restaurant</span>
+                        <h4 class="font-label-md text-label-md text-on-background mb-1">Nutrición</h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-sm">Garantizamos meriendas
+                            nutritivas y soporte alimentario en cada jornada para favorecer el desarrollo infantil
+                            saludable.</p>
+                    </div>
+                    <div class="bg-custom-yellow/20 p-6 rounded-xl">
+                        <span class="material-symbols-outlined text-3xl text-tertiary-container mb-3">menu_book</span>
+                        <h4 class="font-label-md text-label-md text-on-background mb-1">Educación</h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-sm">Impulsamos el aprendizaje
+                            con dinámicas didácticas, lecturas guiadas y dotación de útiles escolares esenciales.</p>
+                    </div>
+                    <div class="bg-custom-peach/20 p-6 rounded-xl">
+                        <span class="material-symbols-outlined text-3xl text-tertiary mb-3">home</span>
+                        <h4 class="font-label-md text-label-md text-on-background mb-1">Refugio Seguro</h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-sm">Creamos espacios afectivos
+                            y protegidos donde cada niño pueda jugar, expresarse y convivir con tranquilidad.</p>
+                    </div>
+                    <div class="bg-custom-lavender/20 p-6 rounded-xl">
+                        <span class="material-symbols-outlined text-3xl text-primary mb-3">psychology</span>
+                        <h4 class="font-label-md text-label-md text-on-background mb-1">Apoyo Psicológico</h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-sm">Ofrecemos acompañamiento
+                            emocional, dinámicas de resiliencia y contención a los pequeños y sus cuidadores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Donaciones (High-Impact Card) -->
+        <section class="py-xl px-margin-mobile md:px-gutter" id="donaciones">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-custom-peach rounded-2xl p-6 sm:p-8 md:p-10 shadow-soft relative overflow-hidden">
+                    <!-- Decorative background elements -->
+                    <div
+                        class="absolute -top-24 -right-24 w-64 h-64 bg-white/20 rounded-full blur-2xl pointer-events-none">
+                    </div>
+                    <div
+                        class="absolute -bottom-24 -left-24 w-64 h-64 bg-primary-container/20 rounded-full blur-2xl pointer-events-none">
+                    </div>
+                    <div class="relative z-10">
+                        <div class="text-center max-w-2xl mx-auto mb-8">
+                            <span
+                                class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/70 backdrop-blur-sm text-xs font-semibold text-primary mb-3 shadow-xs">
+                                <span class="material-symbols-outlined text-sm"
+                                    style="font-variation-settings: 'FILL' 1;">favorite</span>
+                                Tu aporte transforma vidas
+                            </span>
+                            <h2 class="font-headline-lg text-headline-lg text-on-tertiary-container mb-3">Haz tu
+                                donación hoy</h2>
+                            <p class="font-body-md text-body-md text-on-tertiary-container/85 mb-sm">
+                                Tu contribución directa ayuda a proveer alimentos, medicinas, actividades didácticas y
+                                acompañamiento integral a los niños y sus familias.
+                            </p>
+                            <!-- Grid balanceado: Transferencia Bancaria y Pago Móvil -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <!-- Transferencia Bancaria -->
+                                <div
+                                    class="bg-white/75 backdrop-blur-sm p-6 rounded-2xl border border-white/60 shadow-sm flex flex-col justify-between hover:bg-white/85 transition-colors">
+                                    <div>
+                                        <div class="flex items-center gap-3 mb-4">
+                                            <div
+                                                class="w-10 h-10 rounded-xl bg-custom-lavender/60 flex items-center justify-center text-primary">
+                                                <span class="material-symbols-outlined text-2xl">account_balance</span>
+                                            </div>
+                                            <div>
+                                                <h3 class="font-bold text-on-background text-base">Transferencia
+                                                    Bancaria</h3>
+                                                <span class="text-xs text-on-surface-variant font-medium">Cuenta
+                                                    Corriente Nacional</span>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-2.5 text-sm">
+                                            <div
+                                                class="flex justify-between items-center py-1.5 border-b border-black/5">
+                                                <span
+                                                    class="text-xs uppercase tracking-wider text-outline font-medium">Banco:</span>
+                                                <span class="font-semibold text-on-background text-right">Provincial
+                                                    (0102)</span>
+                                            </div>
+                                            <div
+                                                class="flex justify-between items-center py-1.5 border-b border-black/5">
+                                                <span
+                                                    class="text-xs uppercase tracking-wider text-outline font-medium">Cuenta:</span>
+                                                <span
+                                                    class="font-mono font-semibold text-on-background text-xs sm:text-sm text-right">01080174510100309626</span>
+                                            </div>
+                                            <div class="flex justify-between items-center py-1.5">
+                                                <span
+                                                    class="text-xs uppercase tracking-wider text-outline font-medium">C.I:</span>
+                                                <span
+                                                    class="font-mono font-semibold text-on-background text-right">31567077</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Pago Móvil -->
+                                <div
+                                    class="bg-white/75 backdrop-blur-sm p-6 rounded-2xl border border-white/60 shadow-sm flex flex-col justify-between hover:bg-white/85 transition-colors">
+                                    <div>
+                                        <div class="flex items-center gap-3 mb-4">
+                                            <div
+                                                class="w-10 h-10 rounded-xl bg-custom-mint/70 flex items-center justify-center text-secondary">
+                                                <span class="material-symbols-outlined text-2xl">phone_iphone</span>
+                                            </div>
+                                            <div>
+                                                <h3 class="font-bold text-on-background text-base">Pago Móvil</h3>
+                                                <span class="text-xs text-on-surface-variant font-medium">Transferencia
+                                                    Inmediata</span>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-2.5 text-sm">
+                                            <div
+                                                class="flex justify-between items-center py-1.5 border-b border-black/5">
+                                                <span
+                                                    class="text-xs uppercase tracking-wider text-outline font-medium">Banco:</span>
+                                                <span class="font-semibold text-on-background text-right">Provincial
+                                                    (0102)</span>
+                                            </div>
+                                            <div
+                                                class="flex justify-between items-center py-1.5 border-b border-black/5">
+                                                <span
+                                                    class="text-xs uppercase tracking-wider text-outline font-medium">Teléfono:</span>
+                                                <span
+                                                    class="font-mono font-bold text-primary text-sm sm:text-base text-right">04123919684</span>
+                                            </div>
+                                            <div
+                                                class="flex justify-between items-center py-1.5 border-b border-black/5">
+                                                <span
+                                                    class="text-xs uppercase tracking-wider text-outline font-medium">C.I:</span>
+                                                <span
+                                                    class="font-mono font-semibold text-on-background text-right">31567077</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-surface-container-low dark:bg-surface-container-highest mt-auto">
+        <div
+            class="flex flex-col md:flex-row justify-between items-center py-lg px-margin-mobile md:px-gutter max-w-max-width mx-auto gap-6">
+            <div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed">Soñando con
+                Amor</div>
+            <div
+                class="font-body-md text-body-md text-on-surface-variant dark:text-outline-variant text-center md:text-left">
+                © 2026 SCA. Todos los derechos reservados.
+            </div>
+            <!-- Social Bar Component -->
+            <div class="flex gap-4">
+                <a aria-label="Instagram"
+                    class="w-10 h-10 bg-custom-lavender rounded-full flex items-center justify-center text-primary-container hover:scale-110 transition-transform shadow-sm"
+                    href="https://www.instagram.com/somos.sca?stkn=MWZ3MGIyeXgyOGR0MA==" target="_blank">
+                    <!-- Placeholder icon for Instagram -->
+                    <span class="material-symbols-outlined">photo_camera</span>
+                </a>
+                <a aria-label="TikTok"
+                    class="w-10 h-10 bg-custom-lavender rounded-full flex items-center justify-center text-primary-container hover:scale-110 transition-transform shadow-sm"
+                    href="https://www.tiktok.com/@somos.sca?_r=1&_t=ZS-9ALdcme0kOD" target="_blank">
+                    <!-- Placeholder icon for TikTok -->
+                    <span class="material-symbols-outlined">music_note</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

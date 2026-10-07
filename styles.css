@@ -1,0 +1,33 @@
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Forzar relación de aspecto 1:1 exacta en todos los contenedores de fotos grupales */
+.aspect-square {
+    aspect-ratio: 1 / 1 !important;
+}
+
+/* Micro-animaciones y sombras suaves acordes al sistema Soft-Modern */
+.shadow-soft {
+    box-shadow: 0 10px 30px -10px rgba(132, 65, 161, 0.12);
+}
+
+.shadow-soft:hover {
+    box-shadow: 0 18px 36px -12px rgba(132, 65, 161, 0.18);
+}
+
+.team-design-container {
+    animation: fadeInTeam 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeInTeam {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
